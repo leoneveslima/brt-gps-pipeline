@@ -1,0 +1,1 @@
+{"_invocation_id": "6b246092-c00f-45a3-9de5-c298dd407b31", "linked": {"0": {"name": "source.projeto_brt.brt_source.dados_brt", "type": "source", "succ": [2]}, "1": {"name": "source.projeto_brt.fonte.dados_brt", "type": "source"}, "2": {"name": "model.projeto_brt.brt_veiculos", "type": "model"}}}

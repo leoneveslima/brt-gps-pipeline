@@ -1,0 +1,25 @@
+# dbt_project.yml
+
+name: 'projeto_brt'  # Nome do seu projeto
+version: '1.0.0'     # Versão do seu projeto
+
+# Este parâmetro configura qual "perfil" o dbt usa para este projeto.
+profile: 'projeto_brt'  # Certifique-se de que este nome corresponde ao perfil no profiles.yml
+
+# Configurações de diretórios
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # Diretórios a serem removidos pelo `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+# Configurando modelos
+models:
+  projeto_brt:  # Certifique-se de que o nome aqui corresponde ao seu projeto
+    example:
+      +materialized: view  # Configuração padrão para os modelos

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: brt_source
+    database: postgres  # Nome do banco de dados utilizado
+    schema: public  # Schema onde será criada a tabela
+    tables:
+      - name: dados_brt  # Nome da tabela no PostgreSQL

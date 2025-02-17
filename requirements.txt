@@ -1,0 +1,7 @@
+prefect==0.15.9
+requests
+pandas
+psycopg2-binary
+dbt-core
+dbt-postgres
+

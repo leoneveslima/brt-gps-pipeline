@@ -1,0 +1,12 @@
+projeto_brt:
+  outputs:
+    dev:
+      dbname: postgres
+      host: host.docker.internal
+      pass: admin
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev

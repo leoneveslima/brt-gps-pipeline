@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: fonte
+    database: postgres
+    schema: public  
+    tables:
+      - name: dados_brt  
