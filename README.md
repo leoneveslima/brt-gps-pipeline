@@ -1,4 +1,4 @@
-# 🚀 BRT GPS Pipeline
+# <ins>BRT GPS Pipeline</ins>
 
 Este projeto captura dados da API de GPS do BRT do Rio de Janeiro, armazena os dados em um banco de dados PostgreSQL e os transforma utilizando DBT.
 
